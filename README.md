@@ -1,13 +1,14 @@
 ### Instruction
 
-1. Download [Git](https://www.youtube.com/watch?v=-Bfx-v5mIDo)
-2. Download [Scene Builder](https://www.youtube.com/watch?v=tfYAXoeqv50)
-3. Copy the git link
+1. Register GitHub Account
+2. Download [Git](https://www.youtube.com/watch?v=-Bfx-v5mIDo)
+3. Download [Scene Builder](https://www.youtube.com/watch?v=tfYAXoeqv50)
+4. Copy the git link
    * Click on the blue Code
    * Copy the URL
-4. Open your Intellij 
-5. Select **Get from Version Control**
-6. Paste the link and set a location (you may create an empty folder before you proceed with this step)
+5. Open your Intellij 
+6. Select **Get from Version Control**
+7. Paste the link and set a location (you may create an empty folder before you proceed with this step)
 
 ---
 

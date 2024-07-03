@@ -21,6 +21,8 @@ It is located on the left side corner btw
 Run this command:
 `git pull`
 
+*<mark>Run this code everytime you open the project!</mark>*
+
 ---
 
 ### Note 2 (Upload your changes)

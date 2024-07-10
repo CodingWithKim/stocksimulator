@@ -8,42 +8,31 @@
 <?import javafx.scene.shape.Rectangle?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.hint">
-   <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="179.0" layoutY="149.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
       <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-         <image>
             <Image url="@../../../Image/Icon1.png" />
-         </image>
       </ImageView>
       <Label layoutX="211.0" layoutY="162.0" text="Hint 1:" />
       <Label layoutX="305.0" layoutY="18.0" text="Current Priogress: Day 1" />
       <Label layoutX="324.0" layoutY="36.0" text="Total Balance: $1000" />
       <ImageView fx:id="businessmanImage" fitHeight="123.0" fitWidth="96.0" layoutX="497.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/businessmanimage.png" />
-         </image>
+            <Image url="@../../../Image/businessmanimage.png" />
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="487.0" layoutY="103.0" rotate="-118.9" stroke="BLACK" strokeType="INSIDE" width="20.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="252.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="250.0" />
       <Label layoutX="269.0" layoutY="99.0" text="Here are some hints that might help you." />
       <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" onMouseClicked="#saveProgress" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/saveimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/saveimage.jpeg" />
       </ImageView>
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/returnimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/returnimage.jpeg" />
       </ImageView>
       <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="90.0" layoutX="537.0" layoutY="336.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/nextimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/nextimage.jpeg" />
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="314.0" layoutY="149.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="314.0" layoutY="260.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
@@ -60,5 +49,4 @@
       <Label layoutX="218.0" layoutY="310.0" text="\$ -15" textFill="RED" />
       <Label layoutX="353.0" layoutY="310.0" text="\$ 20" textFill="#00ff04" />
       <Label layoutX="184.0" layoutY="18.0" text="Userrname" />
-   </children>
 </AnchorPane>

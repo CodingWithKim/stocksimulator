@@ -9,16 +9,13 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.createCompanyReportB">
-   <children>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.createCompanyReportB">
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
       <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/returnimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/returnimage.jpeg" />
       </ImageView>
       <Label layoutX="156.0" layoutY="21.0" text="Company B: Annual Earnings Report">
          <font>
@@ -41,14 +38,10 @@
       <Label layoutX="66.0" layoutY="210.0" text="\$75,254,125" />
       <Label layoutX="66.0" layoutY="268.0" text="\$65,254,125" />
       <ImageView fx:id="netprofit" fitHeight="35.0" fitWidth="64.0" layoutX="33.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/netprofit.jpeg" />
-         </image>
+            <Image url="@../../../Image/netprofit.jpeg" />
       </ImageView>
       <ImageView fx:id="revenueImage" fitHeight="35.0" fitWidth="64.0" layoutX="33.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/revenue.jpeg" />
-         </image>
+            <Image url="@../../../Image/revenue.jpeg" />
       </ImageView>
       <Line endX="169.5999755859375" endY="-1.52587890625E-5" layoutX="132.0" layoutY="300.0" startX="-101.60000610351562" startY="-1.52587890625E-5" />
       <Label layoutX="33.0" layoutY="309.0" text="Address: 52, Jalan Perindustrian Klang ">
@@ -90,9 +83,6 @@
       <Circle fill="#248432" layoutX="358.0" layoutY="347.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#c1b4aa" layoutX="358.0" layoutY="369.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fx:id="chartBImage" fitHeight="150.0" fitWidth="200.0" layoutX="369.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/chartB.jpeg" />
-         </image>
+            <Image url="@../../../Image/chartB.jpeg" />
       </ImageView>
-   </children>
 </AnchorPane>

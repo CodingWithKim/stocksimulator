@@ -8,23 +8,18 @@
 <?import javafx.scene.shape.Rectangle?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.playController">
-   <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
       <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-         <image>
             <Image url="@../../../Image/Icon1.png" />
-         </image>
       </ImageView>
       <Label layoutX="189.0" layoutY="28.0" text="Username" />
       <Label layoutX="305.0" layoutY="18.0" text="Current Priogress: Day 0" />
       <Label layoutX="324.0" layoutY="36.0" text="Total Balance: $0" />
       <ImageView fx:id="businessmanImage" fitHeight="150.0" fitWidth="200.0" layoutX="475.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/businessmanimage.png" />
-         </image>
+            <Image url="@../../../Image/businessmanimage.png" />
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="435.0" layoutY="145.0" rotate="-118.9" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="113.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
@@ -33,19 +28,13 @@
       <Label layoutX="134.0" layoutY="156.0" text=" mettle in the stock market. Your goal is simple: maximize " />
       <Label layoutX="140.0" layoutY="174.0" text="your wealth within 30 days by buying and selling stocks." />
       <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" onMouseClicked="#saveProgress" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/saveimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/saveimage.jpeg" />
       </ImageView>
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#returnToHomePage" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/returnimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/returnimage.jpeg" />
       </ImageView>
       <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="90.0" layoutX="537.0" layoutY="336.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/nextimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/nextimage.jpeg" />
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="416.0" layoutY="260.0" rotate="-144.5" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="91.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
@@ -53,5 +42,4 @@
       <Label layoutX="103.0" layoutY="271.0" text="market opens at 9:00 AM, and you are presented with a list of" />
       <Label layoutX="103.0" layoutY="290.0" text=" companies to invest in. Each stock has a price that fluctuates " />
       <Label layoutX="167.0" layoutY="306.0" text="based on simulated market condition" />
-   </children>
 </AnchorPane>

@@ -9,33 +9,24 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.play2Controller">
-   <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
       <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-         <image>
             <Image url="@../../../Image/Icon1.png" />
-         </image>
       </ImageView>
       <Label layoutX="189.0" layoutY="28.0" text="Username" />
       <Label layoutX="305.0" layoutY="18.0" text="Current Priogress: Day 1" />
       <Label layoutX="324.0" layoutY="36.0" text="Total Balance: $1000" />
       <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/saveimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/saveimage.jpeg" />
       </ImageView>
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/returnimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/returnimage.jpeg" />
       </ImageView>
       <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="90.0" layoutX="531.0" layoutY="336.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="/Image/nextimage.jpeg" />
-         </image>
+            <Image url="@../../../Image/nextimage.jpeg" />
       </ImageView>
       <Label layoutX="251.0" layoutY="150.0" text="Day 1:">
          <font>
@@ -47,5 +38,4 @@
             <Font size="24.0" />
          </font>
       </Label>
-   </children>
 </AnchorPane>

@@ -5,9 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox alignment="CENTER" spacing="10.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.stocksimulator.ChangeUserController">
-    <children>
         <ListView fx:id="userListView"/>
         <Button text="Select User" onAction="#handleSelectUser"/>
         <Button text="Back" onAction="#handleBack"/>
-    </children>
 </VBox>

@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import javafx.scene.image.Image;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class playSpecialEvent {
 
@@ -48,7 +49,7 @@ public class playSpecialEvent {
 
     public void nextPage(MouseEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource("hint.fxml"));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("hint.fxml")));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -76,7 +77,7 @@ public class playSpecialEvent {
 
     public void annualReportA(MouseEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource("companyAnnualReportA.fxml"));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("companyAnnualReportA.fxml")));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -88,7 +89,7 @@ public class playSpecialEvent {
 
     public void annualReportB(MouseEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource("companyReportB.fxml"));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("companyReportB.fxml")));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -100,7 +101,7 @@ public class playSpecialEvent {
 
     public void annualReportC(MouseEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource("companyReportC.fxml"));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("companyReportC.fxml")));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -112,7 +113,7 @@ public class playSpecialEvent {
 
     public void annualReportD(MouseEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource("companyReportD.fxml"));
+            root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("companyReportD.fxml")));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);

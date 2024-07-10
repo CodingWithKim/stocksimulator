@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.createCompanyReportD">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/returnimage.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="156.0" layoutY="21.0" text="Company D: Annual Earnings Report">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="78.0" text="Global DistributionLimited" />
+      <Label layoutX="30.0" layoutY="96.0" text="Annual Report 2024">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="247.6963348388672" endY="49.67340087890625" layoutX="226.0" layoutY="174.0" rotate="90.0" startX="-65.47267150878906" startY="52.8992919921875" />
+      <Label layoutX="30.0" layoutY="123.0" text="We are a International Distribution Company. " />
+      <Label layoutX="30.0" layoutY="141.0" text="This Report highlghts the company's financial and " />
+      <Label layoutX="30.0" layoutY="159.0" text="non-financial achievement " />
+      <Line endX="169.5999755859375" endY="-1.52587890625E-5" layoutX="128.0" layoutY="176.0" startX="-101.60000610351562" startY="-1.52587890625E-5" />
+      <Label layoutX="66.0" layoutY="191.0" text="Revenue:" />
+      <Label layoutX="67.0" layoutY="249.0" text="Net Profit:" />
+      <Label layoutX="66.0" layoutY="210.0" text="\$85,254,125" />
+      <Label layoutX="66.0" layoutY="268.0" text="\$78,254,125" />
+      <ImageView fx:id="netprofit" fitHeight="35.0" fitWidth="64.0" layoutX="33.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/netprofit.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="revenueImage" fitHeight="35.0" fitWidth="64.0" layoutX="33.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/revenue.jpeg" />
+         </image>
+      </ImageView>
+      <Line endX="169.5999755859375" endY="-1.52587890625E-5" layoutX="132.0" layoutY="300.0" startX="-101.60000610351562" startY="-1.52587890625E-5" />
+      <Label layoutX="33.0" layoutY="309.0" text="Address: 52, Jalan Perindustrian Klang ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="324.0" text="Website: www.globalbusinesltd.com">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="339.0" text="Phone Number: 012-3456789">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="354.0" text="Email Address: info@gobalbusinessltd">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="369.0" text="Fax: 415-452-875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="377.0" layoutY="100.0" text="Revenue Distribution ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="chartDImage" fitHeight="257.0" fitWidth="272.0" layoutX="326.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/chartD.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

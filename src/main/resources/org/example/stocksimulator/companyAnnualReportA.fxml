@@ -17,7 +17,7 @@
       <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/returnimage.jpeg" />
+            <Image url="/Image/returnimage.jpeg" />
          </image>
       </ImageView>
       <Label layoutX="156.0" layoutY="21.0" text="Company A: Annual Earnings Report">
@@ -42,17 +42,17 @@
       <Label layoutX="66.0" layoutY="268.0" text="\$105,254,125" />
       <ImageView fx:id="chartAImage" fitHeight="150.0" fitWidth="200.0" layoutX="353.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/ChartA.jpeg" />
+            <Image url="/Image/ChartA.jpeg" />
          </image>
       </ImageView>
       <ImageView fx:id="netprofit" fitHeight="35.0" fitWidth="64.0" layoutX="33.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/netprofit.jpeg" />
+            <Image url="/Image/netprofit.jpeg" />
          </image>
       </ImageView>
       <ImageView fx:id="revenueImage" fitHeight="35.0" fitWidth="64.0" layoutX="33.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/revenue.jpeg" />
+            <Image url="/Image/revenue.jpeg" />
          </image>
       </ImageView>
       <Line endX="169.5999755859375" endY="-1.52587890625E-5" layoutX="132.0" layoutY="300.0" startX="-101.60000610351562" startY="-1.52587890625E-5" />

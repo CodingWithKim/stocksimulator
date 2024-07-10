@@ -24,12 +24,12 @@
       <Label layoutX="324.0" layoutY="36.0" text="Total Balance: $1000" />
       <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" onMouseClicked="#saveProgress" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/saveimage.jpeg" />
+            <Image url="/Image/saveimage.jpeg" />
          </image>
       </ImageView>
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/returnimage.jpeg" />
+            <Image url="/Image/returnimage.jpeg" />
          </image>
       </ImageView>
       <Label layoutX="233.0" layoutY="61.0" text="Special Event: ">
@@ -60,7 +60,7 @@
       <Label layoutX="472.0" layoutY="165.0" onMouseClicked="#annualReportD" prefHeight="18.0" prefWidth="76.0" text=" Company D:" />
       <ImageView fx:id="businessmanImage" fitHeight="129.0" fitWidth="100.0" layoutX="430.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/businessmanimage.png" />
+            <Image url="/Image/businessmanimage.png" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="372.0" layoutY="294.0" rotate="132.1" stroke="BLACK" strokeType="INSIDE" width="40.0" />
@@ -71,7 +71,7 @@
       <Label layoutX="126.0" layoutY="345.0" text="which stock is going to skyrocket!" />
       <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="85.0" layoutX="537.0" layoutY="338.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/nextimage.jpeg" />
+            <Image url="/Image/nextimage.jpeg" />
          </image>
       </ImageView>
    </children>

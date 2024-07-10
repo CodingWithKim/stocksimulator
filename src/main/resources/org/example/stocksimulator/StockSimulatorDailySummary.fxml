@@ -9,6 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.StockSimularDailySummary">
    <children>
@@ -40,17 +41,21 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="300.0" layoutX="125.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
-      <TableView fx:id="stockTable" layoutX="188.0" layoutY="120.0" prefHeight="200.0" prefWidth="222.0">
+      <TableView fx:id="stockTable" layoutX="188.0" layoutY="143.0" prefHeight="200.0" prefWidth="222.0">
         <columns>
           <TableColumn fx:id="symbolCol" prefWidth="75.0" text="Symbol" />
           <TableColumn fx:id="price" prefWidth="75.0" text="Price" />
             <TableColumn fx:id="volumeCol" prefWidth="75.0" text="Volume" />
         </columns>
       </TableView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="188.0" layoutY="76.0" stroke="BLACK" strokeType="INSIDE" width="222.5" />
-      <Button fx:id="previousButton" layoutX="199.0" layoutY="83.0" mnemonicParsing="false" onAction="#getPrevious" prefHeight="26.0" prefWidth="87.0" text="Previous" />
-      <Label fx:id="summaryLabel" layoutX="189.0" layoutY="327.0" text="Daily Summary:" />
-      <Button fx:id="afterButton" layoutX="311.0" layoutY="83.0" mnemonicParsing="false" onAction="#getAfter" prefHeight="26.0" prefWidth="87.0" text="After" />
-      <Label fx:id="totalBalanceLabel" layoutX="189.0" layoutY="345.0" text="Total Balance:" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="188.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" width="222.5" />
+      <Button fx:id="previousButton" layoutX="199.0" layoutY="103.0" mnemonicParsing="false" onAction="#getPrevious" prefHeight="26.0" prefWidth="87.0" text="Previous" />
+      <Label fx:id="summaryLabel" layoutX="189.0" layoutY="343.0" text="Daily Summary:" />
+      <Button fx:id="afterButton" layoutX="314.0" layoutY="103.0" mnemonicParsing="false" onAction="#getAfter" prefHeight="26.0" prefWidth="87.0" text="After" />
+      <Label layoutX="253.0" layoutY="75.0" text="Daily Summary">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

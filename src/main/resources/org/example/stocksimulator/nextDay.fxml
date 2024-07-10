@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.NextDay">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
+      <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" onMouseClicked="#saveProgress" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/saveimage.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/returnimage.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="90.0" layoutX="531.0" layoutY="336.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../Downloads/nextimage.jpeg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c4ced7" height="250.0" layoutX="100.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d71212" height="50.0" layoutX="100.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Circle fill="WHITE" layoutX="145.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="195.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="245.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="295.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="345.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="445.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="395.0" layoutY="100.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="176.0" layoutY="171.0" text="Next Day">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="185.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="135.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="235.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="285.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="335.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="385.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="40.0" layoutX="435.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+   </children>
+</AnchorPane>

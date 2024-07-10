@@ -103,7 +103,7 @@ public class StockSimularDailySummary implements Initializable {
 
     public void nextPage(MouseEvent event) {
         try {
-            root = FXMLLoader.load(getClass().getResource("next_page.fxml")); // Replace with actual FXML file
+            root = FXMLLoader.load(getClass().getResource("nextDay.fxml")); // Replace with actual FXML file
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -115,7 +115,7 @@ public class StockSimularDailySummary implements Initializable {
 
     public void previousPage(MouseEvent event) {
         try {
-            root = FXMLLoader.load(getClass().getResource("previous_page.fxml")); // Replace with actual FXML file
+            root = FXMLLoader.load(getClass().getResource("dayEnd.fxml")); // Replace with actual FXML file
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);

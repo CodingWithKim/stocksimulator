@@ -65,8 +65,8 @@
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="372.0" layoutY="294.0" rotate="132.1" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="35.0" layoutY="263.0" onMouseClicked="#annualReportA" stroke="BLACK" strokeType="INSIDE" width="357.0" />
-      <Label layoutX="53.0" layoutY="287.0" text="Companies annual earnings has came out! Major fluctuation " />
-      <Label layoutX="46.0" layoutY="313.0" text="has hit the market. Grab this chance to make as much profit as " />
+      <Label layoutX="53.0" layoutY="287.0" text="Companies annual earnings gas came out! Major fluctuation " />
+      <Label layoutX="49.0" layoutY="305.0" text="has hit the market. Grab this chance to make as much profit as " />
       <Label layoutX="61.0" layoutY="327.0" text=" as you can. Click in to each companies report to find out " />
       <Label layoutX="126.0" layoutY="345.0" text="which stock is going to skyrocket!" />
       <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="85.0" layoutX="537.0" layoutY="338.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
@@ -74,6 +74,5 @@
             <Image url="@../../../../../../../Downloads/nextimage.jpeg" />
          </image>
       </ImageView>
-      <Label layoutX="52.0" layoutY="300.0" text="Companies annual earnings has came out! Major fluctuation " />
    </children>
 </AnchorPane>

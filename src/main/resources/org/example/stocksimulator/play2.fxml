@@ -12,8 +12,8 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
-      <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" onMouseClicked="#previousPage" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" onMouseClicked="#saveProgress" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Image/Icon1.png" />
@@ -22,12 +22,12 @@
       <Label layoutX="189.0" layoutY="28.0" text="Username" />
       <Label layoutX="305.0" layoutY="18.0" text="Current Priogress: Day 1" />
       <Label layoutX="324.0" layoutY="36.0" text="Total Balance: $1000" />
-      <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" onMouseClicked="#saveProgress" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../../Downloads/saveimage.jpeg" />
          </image>
       </ImageView>
-      <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../../Downloads/returnimage.jpeg" />
          </image>

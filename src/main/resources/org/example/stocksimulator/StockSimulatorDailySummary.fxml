@@ -27,17 +27,17 @@
       <Label layoutX="324.0" layoutY="36.0" text="Total Balance: $1000" />
       <ImageView fx:id="saveImage" fitHeight="34.0" fitWidth="45.0" layoutX="549.0" layoutY="18.0" onMouseClicked="#saveProgress" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/saveimage.jpeg" />
+            <Image url="@../../../Image/saveimage.jpeg" />
          </image>
       </ImageView>
       <ImageView fx:id="returnImage" fitHeight="28.0" fitWidth="68.0" layoutX="21.0" layoutY="23.0" onMouseClicked="#previousPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/returnimage.jpeg" />
+            <Image url="@../../../Image/returnimage.jpeg" />
          </image>
       </ImageView>
       <ImageView fx:id="nextImage" fitHeight="50.0" fitWidth="90.0" layoutX="531.0" layoutY="336.0" onMouseClicked="#nextPage" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/nextimage.jpeg" />
+            <Image url="@../../../Image/nextimage.jpeg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="300.0" layoutX="125.0" layoutY="70.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />

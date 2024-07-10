@@ -44,32 +44,32 @@
             </Label>
             <ImageView fx:id="logo1" fitHeight="94.0" fitWidth="84.0" layoutX="24.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/businessmanlogo6.jpeg" />
+                  <Image url="@../../../Image/businessmanlogo6.jpeg" />
                </image>
             </ImageView>
             <ImageView fx:id="logo2" fitHeight="94.0" fitWidth="84.0" layoutX="201.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/businesswomanlogo2.jpeg" />
+                  <Image url="@../../../Image/businesswomanlogo2.jpeg" />
                </image>
             </ImageView>
             <ImageView fx:id="logo3" fitHeight="94.0" fitWidth="84.0" layoutX="112.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/businessmanlogo5.jpeg" />
+                  <Image url="@../../../Image/businessmanlogo5.jpeg" />
                </image>
             </ImageView>
             <ImageView fx:id="logo4" fitHeight="94.0" fitWidth="84.0" layoutX="21.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/businessmanlogo2.jpeg" />
+                  <Image url="@../../../Image/businessmanlogo2.jpeg" />
                </image>
             </ImageView>
             <ImageView fx:id="logo5" fitHeight="94.0" fitWidth="84.0" layoutX="200.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/businessmanlogo1.jpeg" />
+                  <Image url="@../../../Image/businessmanlogo1.jpeg" />
                </image>
             </ImageView>
             <ImageView fx:id="logo6" fitHeight="94.0" fitWidth="84.0" layoutX="114.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../Downloads/businessmanimage.png" />
+                  <Image url="@../../../Image/businessmanimage.png" />
                </image>
             </ImageView>
             <TextField fx:id="newUsernameTextField" layoutX="77.0" layoutY="282.0" promptText="Enter your name" />

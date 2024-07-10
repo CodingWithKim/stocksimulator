@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -25,6 +26,9 @@ public class CheckStatusContoller {
 
     @FXML
     private SplitPane splitPane;
+
+    @FXML
+    private AnchorPane pane;
 
     @FXML
     private Circle returnCircle;

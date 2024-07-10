@@ -42,32 +42,32 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <ImageView fx:id="logo1" fitHeight="94.0" fitWidth="84.0" layoutX="24.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="logo1" fitHeight="94.0" fitWidth="84.0" layoutX="24.0" layoutY="54.0" onMouseClicked="#getLogo1" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Downloads/businessmanlogo6.jpeg" />
                </image>
             </ImageView>
-            <ImageView fx:id="logo2" fitHeight="94.0" fitWidth="84.0" layoutX="201.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="logo2" fitHeight="94.0" fitWidth="84.0" layoutX="201.0" layoutY="54.0" onMouseClicked="#getLogo2" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Downloads/businesswomanlogo2.jpeg" />
                </image>
             </ImageView>
-            <ImageView fx:id="logo3" fitHeight="94.0" fitWidth="84.0" layoutX="112.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="logo3" fitHeight="94.0" fitWidth="84.0" layoutX="112.0" layoutY="54.0" onMouseClicked="#getLogo3" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Downloads/businessmanlogo5.jpeg" />
                </image>
             </ImageView>
-            <ImageView fx:id="logo4" fitHeight="94.0" fitWidth="84.0" layoutX="21.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="logo4" fitHeight="94.0" fitWidth="84.0" layoutX="21.0" layoutY="152.0" onMouseClicked="#getLogo4" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Downloads/businessmanlogo2.jpeg" />
                </image>
             </ImageView>
-            <ImageView fx:id="logo5" fitHeight="94.0" fitWidth="84.0" layoutX="200.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="logo5" fitHeight="94.0" fitWidth="84.0" layoutX="200.0" layoutY="152.0" onMouseClicked="#getLogo5" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Downloads/businessmanlogo1.jpeg" />
                </image>
             </ImageView>
-            <ImageView fx:id="logo6" fitHeight="94.0" fitWidth="84.0" layoutX="114.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="logo6" fitHeight="94.0" fitWidth="84.0" layoutX="114.0" layoutY="152.0" onMouseClicked="#getLogo6" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../Downloads/businessmanimage.png" />
                </image>

@@ -5,6 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
@@ -54,12 +56,23 @@ public class hint {
     }
 
     public void saveProgress(MouseEvent event){
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Save Account");
+        alert.setHeaderText("Saving account");
+        alert.setContentText("Do you want to save your account?");
 
+        if (alert.showAndWait().get() == ButtonType.OK){
+            System.out.println("Progress saved successfully.");
+        } else {
+            System.out.println("Save progress operation canceled.");
+        }
     }
+
+
 
     public void nextPage(MouseEvent event){
         try {
-            root = FXMLLoader.load(getClass().getResource(""));
+            root = FXMLLoader.load(getClass().getResource("dayEnd.fxml"));
             stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);

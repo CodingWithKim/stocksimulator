@@ -96,9 +96,39 @@ public class CreateNewUserController {
         }
     }
 
+    @FXML
     private void getLogo1(MouseEvent event) {
         Image logo1 = new Image(getClass().getResourceAsStream("/Image/businessmanlogo6.jpeg"));
         mainLogo.setImage(logo1);
+    }
+
+    @FXML
+    private void getLogo2(MouseEvent event) {
+        Image logo2 = new Image(getClass().getResourceAsStream("/Image/businesswomanlogo2.jpeg"));
+        mainLogo.setImage(logo2);
+    }
+
+    @FXML
+    private void getLogo3(MouseEvent event) {
+        Image logo3 = new Image(getClass().getResourceAsStream("/Image/businessmanlogo5.jpeg"));
+        mainLogo.setImage(logo3);
+    }
+
+    @FXML
+    private void getLogo4(MouseEvent event) {
+        Image logo4 = new Image(getClass().getResourceAsStream("/Image/businessmanlogo2.jpeg"));
+        mainLogo.setImage(logo4);
+    }
+    @FXML
+    private void getLogo5(MouseEvent event) {
+        Image logo5 = new Image(getClass().getResourceAsStream("/Image/businessmanlogo1.jpeg"));
+        mainLogo.setImage(logo5);
+    }
+
+    @FXML
+    private void getLogo6(MouseEvent event) {
+        Image logo6 = new Image(getClass().getResourceAsStream("/Image/businessmanimage.jpeg"));
+        mainLogo.setImage(logo6);
     }
 
     public void getUserName(ActionEvent event) throws IOException{

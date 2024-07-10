@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.play2Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stocksimulator.StockSimularDailySummary">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="380.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="580.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="125.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
-      <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" onMouseClicked="#previousPage" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" onMouseClicked="#saveProgress" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="35.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="565.0" layoutY="35.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
       <ImageView fitHeight="45.0" fitWidth="200.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Image/Icon1.png" />
@@ -37,15 +38,15 @@
             <Image url="@../../../../../../../Downloads/nextimage.jpeg" />
          </image>
       </ImageView>
-      <Label layoutX="251.0" layoutY="150.0" text="Day 1:">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Label>
-      <Label layoutX="229.0" layoutY="200.0" text="A Fresh Start!">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Label>
+      <TableView fx:id="stockTable" layoutX="72.0" layoutY="107.0" prefHeight="200.0" prefWidth="444.0">
+        <columns>
+          <TableColumn fx:id="symbolCol" prefWidth="75.0" text="Symbol" />
+          <TableColumn fx:id="openCol" prefWidth="75.0" text="High Price" />
+            <TableColumn fx:id="closeCol" prefWidth="75.0" text="Low Price" />
+            <TableColumn fx:id="highCol" prefWidth="75.0" text="Open Price" />
+            <TableColumn fx:id="lowCol" prefWidth="75.0" text="Close Price" />
+            <TableColumn fx:id="volumeCol" prefWidth="75.0" text="Volume" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
